@@ -13,6 +13,13 @@
 		0E170CFC1A8B694700636300 /* FristTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E170CFA1A8B694700636300 /* FristTableViewCell.swift */; };
 		0E170CFD1A8B694700636300 /* FristTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E170CFB1A8B694700636300 /* FristTableViewCell.xib */; };
 		0E170CFF1A8B765A00636300 /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E170CFE1A8B765A00636300 /* avatar.jpg */; };
+		0E64F9271A8EDE7800F09163 /* OCSecendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E64F9251A8EDE7800F09163 /* OCSecendViewController.m */; };
+		0E64F9281A8EDE7800F09163 /* OCSecendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E64F9261A8EDE7800F09163 /* OCSecendViewController.xib */; };
+		0E64F92D1A8EE37800F09163 /* OCHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E64F92C1A8EE37800F09163 /* OCHttpRequest.m */; };
+		0E64F9301A8EE7B900F09163 /* Json.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E64F92F1A8EE7B900F09163 /* Json.m */; };
+		0E64F9331A8EE8AB00F09163 /* ObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E64F9321A8EE8AB00F09163 /* ObjectModel.m */; };
+		0E64F9371A8EEDF700F09163 /* OCSecendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E64F9351A8EEDF700F09163 /* OCSecendTableViewCell.m */; };
+		0E64F9381A8EEDF700F09163 /* OCSecendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E64F9361A8EEDF700F09163 /* OCSecendTableViewCell.xib */; };
 		0EF74A631A8B394B00014AAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF74A621A8B394B00014AAA /* AppDelegate.swift */; };
 		0EF74A6A1A8B394B00014AAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF74A691A8B394B00014AAA /* Images.xcassets */; };
 		0EF74A791A8B394B00014AAA /* SwiftQiuShiBaiKeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF74A781A8B394B00014AAA /* SwiftQiuShiBaiKeTests.swift */; };
@@ -48,6 +55,19 @@
 		0E170CFA1A8B694700636300 /* FristTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FristTableViewCell.swift; sourceTree = "<group>"; };
 		0E170CFB1A8B694700636300 /* FristTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FristTableViewCell.xib; sourceTree = "<group>"; };
 		0E170CFE1A8B765A00636300 /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
+		0E64F9231A8EDE7700F09163 /* SwiftQiuShiBaiKe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftQiuShiBaiKe-Bridging-Header.h"; sourceTree = "<group>"; };
+		0E64F9241A8EDE7800F09163 /* OCSecendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCSecendViewController.h; sourceTree = "<group>"; };
+		0E64F9251A8EDE7800F09163 /* OCSecendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCSecendViewController.m; sourceTree = "<group>"; };
+		0E64F9261A8EDE7800F09163 /* OCSecendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OCSecendViewController.xib; sourceTree = "<group>"; };
+		0E64F92B1A8EE37800F09163 /* OCHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCHttpRequest.h; sourceTree = "<group>"; };
+		0E64F92C1A8EE37800F09163 /* OCHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCHttpRequest.m; sourceTree = "<group>"; };
+		0E64F92E1A8EE7B900F09163 /* Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Json.h; sourceTree = "<group>"; };
+		0E64F92F1A8EE7B900F09163 /* Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Json.m; sourceTree = "<group>"; };
+		0E64F9311A8EE8AB00F09163 /* ObjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectModel.h; sourceTree = "<group>"; };
+		0E64F9321A8EE8AB00F09163 /* ObjectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectModel.m; sourceTree = "<group>"; };
+		0E64F9341A8EEDF700F09163 /* OCSecendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCSecendTableViewCell.h; sourceTree = "<group>"; };
+		0E64F9351A8EEDF700F09163 /* OCSecendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCSecendTableViewCell.m; sourceTree = "<group>"; };
+		0E64F9361A8EEDF700F09163 /* OCSecendTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OCSecendTableViewCell.xib; sourceTree = "<group>"; };
 		0EF74A5D1A8B394B00014AAA /* SwiftQiuShiBaiKe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftQiuShiBaiKe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF74A611A8B394B00014AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EF74A621A8B394B00014AAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +122,44 @@
 			name = images;
 			sourceTree = "<group>";
 		};
+		0E64F9291A8EDE8700F09163 /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				0E64F9241A8EDE7800F09163 /* OCSecendViewController.h */,
+				0E64F9251A8EDE7800F09163 /* OCSecendViewController.m */,
+				0E64F9261A8EDE7800F09163 /* OCSecendViewController.xib */,
+				0E64F9341A8EEDF700F09163 /* OCSecendTableViewCell.h */,
+				0E64F9351A8EEDF700F09163 /* OCSecendTableViewCell.m */,
+				0E64F9361A8EEDF700F09163 /* OCSecendTableViewCell.xib */,
+				0E64F92B1A8EE37800F09163 /* OCHttpRequest.h */,
+				0E64F92C1A8EE37800F09163 /* OCHttpRequest.m */,
+				0E64F92E1A8EE7B900F09163 /* Json.h */,
+				0E64F92F1A8EE7B900F09163 /* Json.m */,
+				0E64F9311A8EE8AB00F09163 /* ObjectModel.h */,
+				0E64F9321A8EE8AB00F09163 /* ObjectModel.m */,
+			);
+			name = OC;
+			sourceTree = "<group>";
+		};
+		0E64F92A1A8EDE9A00F09163 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				0EF74A821A8B39BA00014AAA /* MainTabBarController.swift */,
+				0EF74A841A8B39EA00014AAA /* FristViewController.swift */,
+				0EF74A851A8B39EA00014AAA /* FristViewController.xib */,
+				0E170CFA1A8B694700636300 /* FristTableViewCell.swift */,
+				0E170CFB1A8B694700636300 /* FristTableViewCell.xib */,
+				0EF74A881A8B3A1400014AAA /* SecendViewController.swift */,
+				0EF74A891A8B3A1400014AAA /* SecendViewController.xib */,
+				0EF74A8C1A8B3FC000014AAA /* MoreViewController.swift */,
+				0EF74A8D1A8B3FC000014AAA /* MoreViewController.xib */,
+				0E170CF41A8B5FFD00636300 /* YRRefreshView.swift */,
+				0E170CF51A8B5FFD00636300 /* YRRefreshView.xib */,
+				0E170CF81A8B603600636300 /* YRHttpRequest.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
 		0EF74A541A8B394B00014AAA = {
 			isa = PBXGroup;
 			children = (
@@ -123,22 +181,13 @@
 		0EF74A5F1A8B394B00014AAA /* SwiftQiuShiBaiKe */ = {
 			isa = PBXGroup;
 			children = (
-				0E170CF31A8B5E5800636300 /* images */,
 				0EF74A621A8B394B00014AAA /* AppDelegate.swift */,
-				0EF74A821A8B39BA00014AAA /* MainTabBarController.swift */,
-				0EF74A841A8B39EA00014AAA /* FristViewController.swift */,
-				0EF74A851A8B39EA00014AAA /* FristViewController.xib */,
-				0EF74A881A8B3A1400014AAA /* SecendViewController.swift */,
-				0EF74A891A8B3A1400014AAA /* SecendViewController.xib */,
-				0EF74A8C1A8B3FC000014AAA /* MoreViewController.swift */,
-				0EF74A8D1A8B3FC000014AAA /* MoreViewController.xib */,
-				0E170CF41A8B5FFD00636300 /* YRRefreshView.swift */,
-				0E170CF51A8B5FFD00636300 /* YRRefreshView.xib */,
-				0E170CF81A8B603600636300 /* YRHttpRequest.swift */,
-				0E170CFA1A8B694700636300 /* FristTableViewCell.swift */,
-				0E170CFB1A8B694700636300 /* FristTableViewCell.xib */,
+				0E64F92A1A8EDE9A00F09163 /* Swift */,
+				0E64F9291A8EDE8700F09163 /* OC */,
 				0EF74A691A8B394B00014AAA /* Images.xcassets */,
+				0E170CF31A8B5E5800636300 /* images */,
 				0EF74A601A8B394B00014AAA /* Supporting Files */,
+				0E64F9231A8EDE7700F09163 /* SwiftQiuShiBaiKe-Bridging-Header.h */,
 			);
 			path = SwiftQiuShiBaiKe;
 			sourceTree = "<group>";
@@ -252,6 +301,7 @@
 				0E170CF71A8B5FFD00636300 /* YRRefreshView.xib in Resources */,
 				0EF74A6A1A8B394B00014AAA /* Images.xcassets in Resources */,
 				0EF74A9A1A8B4A8700014AAA /* gengduo@2x.png in Resources */,
+				0E64F9281A8EDE7800F09163 /* OCSecendViewController.xib in Resources */,
 				0EF74A951A8B4A5700014AAA /* remen2@2x.png in Resources */,
 				0E170CFF1A8B765A00636300 /* avatar.jpg in Resources */,
 				0EF74A8F1A8B3FC000014AAA /* MoreViewController.xib in Resources */,
@@ -260,6 +310,7 @@
 				0EF74A941A8B4A5700014AAA /* gengduo2@2x.png in Resources */,
 				0EF74A9B1A8B4A8700014AAA /* remen@2x.png in Resources */,
 				0EF74A8B1A8B3A1400014AAA /* SecendViewController.xib in Resources */,
+				0E64F9381A8EEDF700F09163 /* OCSecendTableViewCell.xib in Resources */,
 				0EF74A871A8B39EA00014AAA /* FristViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,8 +331,13 @@
 			files = (
 				0EF74A8E1A8B3FC000014AAA /* MoreViewController.swift in Sources */,
 				0EF74A831A8B39BA00014AAA /* MainTabBarController.swift in Sources */,
+				0E64F9371A8EEDF700F09163 /* OCSecendTableViewCell.m in Sources */,
+				0E64F9301A8EE7B900F09163 /* Json.m in Sources */,
+				0E64F9271A8EDE7800F09163 /* OCSecendViewController.m in Sources */,
+				0E64F9331A8EE8AB00F09163 /* ObjectModel.m in Sources */,
 				0EF74A861A8B39EA00014AAA /* FristViewController.swift in Sources */,
 				0E170CF91A8B603600636300 /* YRHttpRequest.swift in Sources */,
+				0E64F92D1A8EE37800F09163 /* OCHttpRequest.m in Sources */,
 				0E170CF61A8B5FFD00636300 /* YRRefreshView.swift in Sources */,
 				0EF74A8A1A8B3A1400014AAA /* SecendViewController.swift in Sources */,
 				0E170CFC1A8B694700636300 /* FristTableViewCell.swift in Sources */,
@@ -389,9 +445,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftQiuShiBaiKe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftQiuShiBaiKe/SwiftQiuShiBaiKe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -399,9 +458,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftQiuShiBaiKe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftQiuShiBaiKe/SwiftQiuShiBaiKe-Bridging-Header.h";
 			};
 			name = Release;
 		};

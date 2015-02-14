@@ -6,18 +6,18 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="302" id="KGk-i7-Jjw" customClass="FristTableViewCell" customModule="SwiftQiuShiBaiKe" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="302"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="168" id="KGk-i7-Jjw" customClass="OCSecendTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="168"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a2l-Tn-8Ub">
-                        <rect key="frame" x="8" y="9" width="51" height="51"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8aI-1v-mPX">
+                        <rect key="frame" x="8" y="8" width="47" height="43"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="名字" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0B-kp-nSK">
-                        <rect key="frame" x="67" y="15" width="204" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="名字" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3C7-ly-LqB">
+                        <rect key="frame" x="68" y="19" width="212" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
@@ -25,10 +25,12 @@
                 </subviews>
             </tableViewCellContentView>
             <connections>
-                <outlet property="headerImg" destination="a2l-Tn-8Ub" id="N6Y-BS-cpx"/>
-                <outlet property="nameLabel" destination="n0B-kp-nSK" id="EGb-bV-jX6"/>
+                <outlet property="namelable" destination="3C7-ly-LqB" id="aUA-ZF-3e0"/>
             </connections>
-            <point key="canvasLocation" x="82" y="176"/>
+            <point key="canvasLocation" x="140" y="213"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="avatar.jpg" width="221" height="220"/>
+    </resources>
 </document>

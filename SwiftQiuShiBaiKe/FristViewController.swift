@@ -26,7 +26,6 @@ class FristViewController: UIViewController ,UITableViewDelegate, UITableViewDat
         var width = self.view.frame.size.width
         var height = self.view.frame.size.height
         self.tableView = UITableView(frame:CGRectMake(0,0,width,height))
-        
         self.tableView!.delegate = self;
         self.tableView!.dataSource = self;
         
@@ -34,12 +33,11 @@ class FristViewController: UIViewController ,UITableViewDelegate, UITableViewDat
         self.refreshView = arr[0] as? YRRefreshView
         self.refreshView!.delegate = self
         self.tableView!.tableFooterView = self.refreshView
+        
         var nib = UINib(nibName:"FristTableViewCell", bundle: nil)
         self.tableView?.registerNib(nib, forCellReuseIdentifier: "cell")
         self.view.addSubview(self.tableView!)
         
-       
-       
         self.timer = NSTimer.scheduledTimerWithTimeInterval(0.2, target: self, selector: "runTimer", userInfo: nil, repeats: true)
         
         self.loadData()
@@ -68,7 +66,7 @@ class FristViewController: UIViewController ,UITableViewDelegate, UITableViewDat
         
         YRHttpRequest.requestWithURL("http://m2.qiushibaike.com/article/list/suggest?count=20&page=\(page)", completionHandler: { (data)  in
             
-            println("\(data)")
+            //println("\(data)")
             
             self.title = "最新"
             
@@ -121,7 +119,7 @@ class FristViewController: UIViewController ,UITableViewDelegate, UITableViewDat
         var data = self.listArray[index] as NSDictionary
         var content = data["content"] as NSString
         var size = self.getSize(content)
-        return size.height+130
+        return size.height+110
     }
     //计算size
     func getSize(content:NSString)->CGSize{

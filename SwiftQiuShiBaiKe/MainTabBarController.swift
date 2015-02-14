@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+
 class MainTabBarController: UITabBarController {
 
     let itemArray = ["最新","热门","关于"]
@@ -89,8 +91,10 @@ class MainTabBarController: UITabBarController {
         
         var nav1 = UINavigationController(rootViewController: vc1)
         
-        var vc2 = SecendViewController(nibName: "SecendViewController", bundle: nil)
+        var vc2 = OCSecendViewController(nibName: "OCSecendViewController", bundle: nil)
         var nav2 = UINavigationController(rootViewController: vc2)
+//        var vc2 = SecendViewController(nibName: "SecendViewController", bundle: nil)
+//        var nav2 = UINavigationController(rootViewController: vc2)
         
         var vc3 = MoreViewController (nibName: "MoreViewController", bundle: nil)
         var nav3 = UINavigationController(rootViewController: vc3)
@@ -118,7 +122,6 @@ class MainTabBarController: UITabBarController {
         var btn = self.buttons![index] as UIButton
         btn.selected = true
         btn.userInteractionEnabled = false
-        
     }
     
     override func didReceiveMemoryWarning() {

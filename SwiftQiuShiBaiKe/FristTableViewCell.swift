@@ -18,10 +18,10 @@ class FristTableViewCell: UITableViewCell {
     @IBOutlet weak var headerImg: UIImageView!
 
      var contentImg: UIImageView!
-    @IBOutlet weak var dingLable: UILabel!
-    @IBOutlet weak var pinglunlable: UILabel!
+     var dingLable: UILabel!
+     var pinglunlable: UILabel!
     
-    @IBOutlet weak var caiLable: UILabel!
+     var caiLable: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -36,10 +36,25 @@ class FristTableViewCell: UITableViewCell {
         self.contentTV.scrollEnabled = false
         self.contentView.addSubview(self.contentTV)
         
-        self.contentImg = UIImageView(frame: CGRectZero)
-        self.contentView.addSubview(self.contentImg)
+//        self.contentImg = UIImageView(frame: CGRectZero)
+//        self.contentView.addSubview(self.contentImg)
+        
+        self.dingLable = UILabel(frame: CGRectZero)
+        self.dingLable.text = "顶（100）"
+        self.contentView.addSubview(self.dingLable)
+        
+        self.caiLable = UILabel(frame: CGRectZero)
+        self.caiLable.text = "踩（100）"
+        self.contentView.addSubview(self.caiLable)
+        
+        self.pinglunlable = UILabel(frame: CGRectZero)
+        self.pinglunlable.text = "评论（100）"
+        self.contentView.addSubview(self.pinglunlable)
+        
         
     }
+    
+    
     override func layoutSubviews()
     {
         super.layoutSubviews()

@@ -1,10 +1,4 @@
-//
-//  YRRefreshView.swift
-//  JokeClient-Swift
-//
-//  Created by YANGReal on 14-6-6.
-//  Copyright (c) 2014年 YANGReal. All rights reserved.
-//
+
 
 import UIKit
 
@@ -12,7 +6,7 @@ import UIKit
 
 protocol YRRefreshViewDelegate 
 {
-    // @optional func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!)
+    
     
    func refreshView(refreshView:YRRefreshView,didClickButton btn:UIButton)
 }
@@ -29,15 +23,7 @@ class YRRefreshView: UIView {
     
     
     var delegate :YRRefreshViewDelegate!
-    
-   /*
-    init(frame: CGRect) {
-        super.init(frame: frame)
-        // Initialization code
-    }
-    */
-    
-    
+
     override func awakeFromNib()
     {
         super.awakeFromNib()
@@ -58,14 +44,6 @@ class YRRefreshView: UIView {
         self.indicator!.hidden = true
         self.indicator!.stopAnimating()
     }
-    
-    /*
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func drawRect(rect: CGRect)
-    {
-        // Drawing code
-    }
-    */
+ 
 
 }
